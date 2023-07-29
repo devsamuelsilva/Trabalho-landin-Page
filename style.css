@@ -3,3 +3,121 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    min-height: 100vh;
+}
+
+.container{
+    max-width: 100%;
+    display: flex;
+}
+
+.hero{
+    max-width: 100%;
+    height: 600px;
+    background-image: url(https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/landing_oh_canada/hero_landing_us_desktop.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.header-hero{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.img-header{
+    width: 63%;
+    display: flex;
+    justify-content: end;
+    padding-right: 40px;
+}
+
+.btn-hero{
+    width: 20%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 10px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+.btn-in{
+    width: 80px;
+    height: 40px;
+    border-radius: 24px;
+    background-color: red;
+    border-color: red;
+    color: white;
+}
+
+.btn-out{
+    width: 80px;
+    height: 40px;
+    border-radius: 24px;
+    background-color: white;
+    border-color: white;
+    color: black;
+}
+
+.img-hero{
+    height: 70px;
+}
+
+.infos-hero{
+    max-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.text-hero{
+    font-size: 40px;
+    color: white;
+}
+
+.input-hero{
+    width: 350px;
+    height: 30px;
+    border-radius: 34px;
+    padding-left: 10px;
+    border-style: none;
+}
+
+.link-hero{
+    width: 200px;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    cursor: pointer;
+    transition-duration: 0.15s, 0.15s;
+    transition-timing-function: ease-in-out, ease-in-out;
+    transition-delay: 0s, 0s;
+    transition-property: background-color, box-shadow;
+    -webkit-user-select: none;
+    text-decoration-line: none;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: transparent 0px 0px 0px 1px inset;
+    color: rgb(73, 73, 73);
+}
