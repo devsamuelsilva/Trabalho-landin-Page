@@ -246,42 +246,93 @@ body {
     padding-right: 150px;
 }
 
-footer{
-  width: 100%;
-  height: 900px;
-  background-color: rgb(25, 25, 25);
-  display: flex;
-  justify-content: start;
-  padding-top: 40px;
-}
-
-.infos1{
-    display: flex;
-    justify-content: end;
-}
-
-.text-footer{
+.container-footer{
     width: 100%;
-    color: white;
-    display: flex;
-    flex-direction: column;
+    height: 900px;
+    background-color: rgb(25, 25, 25);
+    padding-top: 10px;
+    padding-left: 90px;
+    padding-right: 90px;
 
 }
 
-.info1-footer{
-    color: white;
+.link-footer{
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
+    color: white;
 }
 
-.info2-footer{
-    color: white;
+.infos-footer{
+    width: 100%;
+    height: 100vh;
     display: flex;
-    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
 }
 
-.info3-footer{
-    color: white;
+.rodape-footer{
+    width: 100%;
+    height: 100px;
+}
+
+.link-cities{
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+}
+
+.info-cities{
+    width: 50%;
+    height: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 10px;
+    padding-top: 30px;
+
+}
+
+.cities{
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    font-size: 16px;
+    font-family: DD-TTNorms, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0ch;
+    text-transform: none;
+    color: rgb(255, 255, 255);
+    margin-top: 0px;
+    padding-top: 0px;
+    display: block;
+    font-variant-ligatures: no-common-ligatures;
+}
+
+a:hover { 
+    text-decoration-line: underline;
+ }
+
+ .infos-footer2{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+}
+
+.rodape-footer{
+    width: 100%;
+}
+
+.img-footer{
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
