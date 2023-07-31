@@ -114,7 +114,6 @@ body {
     transition-timing-function: ease-in-out, ease-in-out;
     transition-delay: 0s, 0s;
     transition-property: background-color, box-shadow;
-    -webkit-user-select: none;
     text-decoration-line: none;
     text-align: center;
     background-color: rgb(255, 255, 255);
@@ -323,10 +322,6 @@ a:hover {
     justify-content: flex-start;
     align-items: start;
     padding-top: 30px;
-}
-
-.rodape-footer{
-
 }
 
 .img-footer{
